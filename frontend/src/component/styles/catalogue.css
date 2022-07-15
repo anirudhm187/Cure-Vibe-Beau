@@ -1,0 +1,108 @@
+.testCards {
+    padding-top: 2.5vmax;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-left: 5vmax;
+    padding-right: 4vmax;
+}
+
+.cardDisplay {
+    position: relative;
+    justify-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+}
+
+.testCards .cardDisplay .testcard {
+    width: 25vmax;
+    height: 30vmax;
+    margin: 0vmax 1vmax 2vmax 1vmax;
+    background: #AA67E0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.testcard .price {
+    position: sticky;
+    width: 6vmax;
+    float: right;
+    background: #FAFF02;
+    height: 2.4vmax;
+    padding-top: 0.4vmax;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 2vmax;
+    border-bottom-left-radius: 1.5vmax;
+    text-align: center;
+    text-justify: center;
+    color: #645149;
+}
+
+.testcard .price span{
+    position: absolute;
+    font-weight: 600;
+    margin-left: -1.8vmax;
+    font-size: 1.3vmax;
+    text-align: center;
+}
+.testcard .design{
+    position: absolute;
+    bottom: -6.1vmax;
+    display: flex;
+    flex-direction: row;
+
+}
+.circle {
+    position: relative ;
+    z-index: 0;
+    margin: 2vmax 0vmax 0vmax 0.1vmax;
+    width: 5.5vmax;
+    height: 5.5vmax;
+    border-radius: 10vmax;
+    background: #FAFF02;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: clip;
+    
+}
+
+.testCards .cardDisplay .testcard .testName h3 {
+    color: #FFFFFF;
+    margin-top: 3.3vmax;
+    font-size: 1.7vmax;
+    text-align: center;
+}
+
+.testCards .testdescription {
+    margin: auto;
+    width: 80%;
+}
+
+.testCards .testdescription p {
+    font-size: 1.3vmax;
+    color:#FFFFFF;
+}
+
+.testCards button {
+    position: relative;
+    display: inline;
+    font-size: 1.6vmax;
+    align-self: center;
+    margin-left: 1.4vmax;
+    background: #DD3535;
+    border: #DD3535;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 4vmax;
+    width: 10vmax;
+    margin-bottom: 12vmax;
+} 
+
+.testCards button:hover{
+    background: #DD3535;
+}

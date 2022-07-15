@@ -1,0 +1,17 @@
+.banners{
+    position: sticky;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: -4vmax;
+}
+.banners img{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.banners .second img , .third img{
+    margin-top: 0;
+}
+
