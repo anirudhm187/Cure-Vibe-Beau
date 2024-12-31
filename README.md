@@ -109,7 +109,7 @@ npm start
 The application frontend will run on http://localhost:3000.
 The backend server will be active at http://localhost:5000.
 
-#### Folder Structure 📂
+## Folder Structure 📂
 
 ```plaintext
 Cure-Vibe-Beau/
