@@ -73,96 +73,133 @@ Follow these steps to run the **Cure Vibe Beau** application locally.
 ```bash
 git clone https://github.com/anirudhm187/Cure-Vibe-Beau.git
 cd Cure-Vibe-Beau
-2. Backend Setup
+```
+#### 2. Backend Setup
 Navigate to the backend directory:
-
-bash
-Copy code
+```bash
 cd backend
+```
 Install backend dependencies:
 
-bash
-Copy code
+```bash
 npm install
+```
 Start the backend server:
 
-bash
-Copy code
+```bash
 nodemon app.js
-3. Frontend Setup
+```
+#### 3. Frontend Setup
 Open a new terminal and navigate to the frontend directory:
 
-bash
-Copy code
+```bash
 cd frontend
+```
 Install frontend dependencies:
 
-bash
-Copy code
+```bash
 npm install
+```
 Start the frontend development server:
 
-bash
-Copy code
+```bash
 npm start
-4. Access the Application
+```
+#### 4. Access the Application
 The application frontend will run on http://localhost:3000.
 The backend server will be active at http://localhost:5000.
-Environment Variables 🌍
-Create a .env file in the backend directory and configure the following variables:
 
-env
-Copy code
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-API_KEY=covid_api_key
-```
-Folder Structure 📂
-php
-Copy code
+#### Folder Structure 📂
+
+```plaintext
 Cure-Vibe-Beau/
 ├── backend/
-│   ├── models/            # Mongoose models for MongoDB
-│   ├── routes/            # API routes (users, donors, etc.)
-│   ├── controllers/       # Business logic for routes
-│   ├── middleware/        # Authentication and error handling
-│   └── app.js             # Main server file
-│
+│   ├── models/               # Mongoose models for MongoDB
+│   ├── routes/               # API routes (users, donors, etc.)
+│   ├── controllers/          # Business logic for routes
+│   ├── middleware/           # Authentication and error handling
+│   └── app.js                # Main server file
 ├── frontend/
 │   ├── src/
-│   │   ├── components/    # React components
-│   │   ├── pages/         # Page-level components
-│   │   ├── utils/         # Utility functions
-│   │   ├── App.js         # Main React app
-│   │   └── index.js       # React entry point
-│   └── public/            # Static files
-│
-└── README.md              # Project documentation
-Features in Action 🎥
-Real-Time COVID-19 Stats
+│   │   ├── components/       # React components
+│   │   ├── pages/            # Page-level components
+│   │   ├── utils/            # Utility functions
+│   │   ├── App.js            # Main React app
+│   │   └── index.js          # React entry point
+│   └── public/               # Static files
+└── README.md                 # Project documentation
+```
+## Features in Action 🎥
 
-Displays live updates of COVID cases fetched from an external API.
-Medicine Shopping Cart
+### 1. Real-Time COVID-19 Stats
+- Displays live updates of COVID cases fetched from an external API.
 
-Users can browse medicines, add to a cart, and place an order.
-Blood Donor Search
+### 2. Medicine Shopping Cart
+- Users can browse medicines, add them to a cart, and place an order.
 
-Users can find local donors by blood group or register themselves as donors.
-Technologies Used 🛠️
-Frontend
-React: Component-based architecture for building UIs.
-CSS: For styling and responsiveness.
-Backend
-Node.js: JavaScript runtime environment.
-Express: Backend web framework for API development.
-Database
-MongoDB: NoSQL database for data storage.
-Other Tools
-JWT: Secure token-based authentication.
-Bcrypt: For encrypting user passwords.
-Axios: To handle HTTP requests.
-Future Enhancements ✨
-User Order History: Show users a history of their past orders.
-Blood Donor Notifications: Notify donors when a request matches their blood type.
-Payment Gateway Integration: Add online payment options for orders.
-Enhanced Search: Improve blood donor and medicine search functionalities.
+### 3. Blood Donor Search
+- Users can find local donors by blood group or register themselves as donors.
+
+---
+
+## Technologies Used 🛠️
+
+### Frontend
+- **React**: Component-based architecture for building UIs.
+- **CSS**: For styling and responsiveness.
+
+### Backend
+- **Node.js**: JavaScript runtime environment.
+- **Express**: Backend web framework for API development.
+
+### Database
+- **MongoDB**: NoSQL database for data storage.
+
+### Other Tools
+- **JWT**: Secure token-based authentication.
+- **Bcrypt**: For encrypting user passwords.
+- **Axios**: To handle HTTP requests.
+
+## Future Enhancements ✨
+
+- **User Order History**: Provide users with a history of their past orders for better tracking and management.
+- **Blood Donor Notifications**: Notify donors via email or SMS when a request matches their blood type, improving response times.
+- **Payment Gateway Integration**: Incorporate online payment options for placing orders to enhance user convenience.
+- **Enhanced Search**: Improve search functionality for both blood donors and medicines to ensure more accurate and faster results.
+
+## Screenshots 📸
+
+### Homepage
+![image](https://github.com/user-attachments/assets/0fb0d266-72a8-404c-a0c9-a4beb08bb5e5)
+
+![image](https://github.com/user-attachments/assets/49145c53-0ca4-46c4-95b0-fddf41a54faa)
+
+
+
+### Buy Page 
+![image](https://github.com/user-attachments/assets/ababd3e2-6e62-4e67-8f5e-cf45c7c87c83)
+
+![image](https://github.com/user-attachments/assets/6baf1669-29e6-4c63-a04e-2d8631932e89)
+
+
+
+### Lab Test Page
+![image](https://github.com/user-attachments/assets/2057624c-4d6e-40ea-9ca2-707b227962fb)
+
+![image](https://github.com/user-attachments/assets/6bde1bfc-5b72-4824-977b-7745d803361f)
+
+### Donor Page
+- **Join Donor**
+  ![image](https://github.com/user-attachments/assets/08fcba54-1072-49b4-bf99-b9f57ebffa38)
+- **Find Donor**
+ ![image](https://github.com/user-attachments/assets/6d0af00c-87ab-4a8f-a2c9-2a187e370abd)
+
+
+### Cart Page
+![image](https://github.com/user-attachments/assets/befd557c-8241-46ae-95b9-42cfbc29a234)
+
+![image](https://github.com/user-attachments/assets/0639ac24-5ec2-46a8-b85c-4e52dc30043c)
+
+
+
+
